@@ -1,0 +1,51 @@
+baseurl = "https://blog.hirschauer-it.de/"
+title = "Andreas Hirschauer's Blog"
+copyright = "© Andreas Hirschauer 2016"
+languageCode = "en-US"
+canonifyurls = true
+paginate = 3
+theme = "hugo-dusk"
+
+googleAnalytics = ""
+disqusShortname = ""
+
+SectionPagesMenu = "main"
+
+# use Chroma for syntax highlight
+pygmentsStyle = "native" # other dark style options: native, vim, fruity, monokai
+# enable syntax highlight for code blocks
+pygmentsCodeFences = true
+
+[[menu.main]]
+  name = "Posts"
+  weight = -120
+  identifier = "post"
+  url = "/post/"
+
+[[menu.main]]
+  name = "Tags"
+  weight = -110
+  identifier = "tag"
+  url = "/tags/"
+
+[author]
+  name = "Andreas Hirschauer"
+
+[params.meta]
+  keywords = ""
+  description = "That's the blog of Andreas Hirschuer, code writer for Linux & Unix"
+
+[params]
+  email = "andi@linux.com"
+  github = "johnnyleone"
+  #gitlab = "gitlab id"
+  twitter = "pseudoaffe"
+  #linkedin = "linkedin id"
+
+[params.colors]
+  # hugo-dusk colors
+  background = "#282a36" # background color for the site
+  main = "#ff7d27"
+  text = "#dbdbdb"
+  code-quote-bg = "#1D1F21" # background color for quotes and code blocks
+  copyright = "#404040" # copyright text color
