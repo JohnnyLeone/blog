@@ -3,10 +3,10 @@ title = "Andreas Hirschauer's Blog"
 copyright = "© Andreas Hirschauer 2016"
 languageCode = "en-US"
 canonifyurls = true
-paginate = 3
+paginate = 4
 theme = "hugo-dusk"
 
-googleAnalytics = ""
+googleAnalytics = "UA-77344858-1"
 disqusShortname = ""
 
 SectionPagesMenu = "main"
